@@ -1,0 +1,40 @@
+main{
+    max-width:40%;
+    margin:0 auto;
+    
+
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.logo{
+    grid-column: 1/3;
+}
+#second{
+    height: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #011638;
+    text-decoration: aliceblue;
+}
+.route{
+    margin-top: 50px;
+}
+#third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(222, 228, 226, 0.605);
+}
+#fourth{
+margin-top: 40px;
+   text-align: center;
+}
+.departure{text-decoration-color: white;
+
+}
+h1{
+    color: white;
+}
