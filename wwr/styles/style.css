@@ -5,8 +5,13 @@
     justify-self: center;
     align-self: center;
 }
+.rivers-grid{
+    display: grid;
+   
+}
+
 #content{
-    width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 } 
 nav{
@@ -48,14 +53,14 @@ nav a{
     height: 725px;
 }
 body{
-    background-color: yellowgreen;
+    background-color: rgb(191, 225, 124);
     font-family: 'satisfy', 'kalam', 'roboto';
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header{
-    background-color: aquamarine;
+    background-color: rgb(236, 241, 132);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -93,7 +98,7 @@ nav a:hover{
     padding-bottom: 15px;
 }
 footer{
-    background-color: aquamarine;
+    background-color:rgb(236, 241, 132);
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
