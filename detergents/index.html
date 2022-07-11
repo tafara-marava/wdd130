@@ -6,26 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Site Home page</title>
 </head>
-
+<link rel="stylesheet" href="siteplan.css">
 <body>
+    <main id="main">
     <header>
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/mylogo.jpeg" alt="mylogo">
         </a>
         <h1>Stormgenix Enterprises</h1>
         <nav>
-            <a href="index.html">Home</a>
+           <!-- <a href="index.html">Home</a>
             <a href="#">page2</a>
             <a href="#">page3</a>
-            <a href="#">page4</a>
-        </nav>
+            <a href="#">page4</a>-->
+        
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">Page 2</a>
+            <a href="#contact">page 3</a>   
+        </div>   
+        <div class="search_bar"> 
+            <input type="text" placeholder="Search..">
+        </div> 
+       
         
     </header>
-    <main>
-        <img class="main_image" src="images/aboutus.jpg" alt="about us">
     
-    <section>
-        <h2>About Us</h2>
+        <img class="main_image" src="images/aboutus.jpg" alt="about us"><div class="bg-image"></div>
+
+<!--<div class="bg-text">
+  <h1>I am John Doe</h1>
+  <p>And I'm a Photographer</p>
+</div>-->
+
+    
+    <section class="about_us">
+        <div><h2>About Us</h2>
             <p>
                 We are a chemical company targeted towards improving your hygiene in your homes, churches, schools and other corporate buildings. Our site seeks to help consumers find the products they need in an easier way.
             </p>
@@ -36,7 +52,11 @@
             <p> 
                 Within the next few years, we hope to achieve our dream of being a nationwide company whose services and products are available to use in organisations such as schools, clinics, hospitals, restaurants, butcheries and even in people’s homes. We wish to have a company that takes the form of a one-stop-shop when it comes to buying all the cleaning materials that one would ever need. We will also strive to make sure that the products we distribute to our customers will be environmentally friendly, and will provide guidelines on how to use them such that they do not cause side effects such as allergies and skin irritations.
             </p>
-    <a class="order" href="#">Place An Order</a> 
+        </div>    
+        <div class="order">
+            <a href="#">Place An Order</a>
+        </div>
+
     </section>
     </main>
 </body>
